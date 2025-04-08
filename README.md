@@ -14,7 +14,7 @@ We are resuing the benchmarks from 2024:
 | [Airplane](./benchmarks/Airplane) | continuous | t\in[0,20] | relu | [2,7] | - | 
 | [Airplane](./benchmarks/Airplane) | discrete | t\in{0,1,...,20} | relu | [2,7] | - | 
 | [Attitude Control](./benchmarks/Attitude-Control) | avoid | default | sigmoid | [1,2] | - | 
-| [Balancing](./benchmarks/CartPole) | reach | default | tanh | [1,3] | new | 
+| [Balancing](./benchmarks/CartPole) | reach | default | tanh | [1,3] | - | 
 | [Docking](./benchmarks/Docking) | constraint | default | tanh | [1,2] and [3,4] | - | 
 | [Double Pendulum](./benchmarks/Double_Pendulum) | less-robust | Specification 1 | less robust | [3,4] | -| 
 | [Double Pendulum](./benchmarks/Double_Pendulum) | more-robust | Specification 2 | more robust | [3,4] | - | 

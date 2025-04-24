@@ -23,8 +23,8 @@ We are resuing the benchmarks from 2024:
 | [QUAD](./benchmarks/QUAD) | reach | default | sigmoid | dim 3 over time | - | 
 | [Single Pendulum](./benchmarks/Single_Pendulum) | reach | default | relu | 1 over time | - | 
 | [TORA](./benchmarks/Benchmark9-Tora) | remain | Specification 1 | relu | [1,2] and [3,4] | - | 
-| [TORA (Heterogeneous)](./benchmarks/Tora_Heterogeneous) | reach-sigmoid | Specification 2 | sigmoid | [1,2] | - | 
-| [TORA (Heterogeneous)](./benchmarks/Tora_Heterogeneous) | reach-tanh | Specification 2 | tanh | [1,2] | - | 
+| [TORA](./benchmarks/Tora_Heterogeneous) | reach-sigmoid | Specification 2 | sigmoid | [1,2] | - | 
+| [TORA](./benchmarks/Tora_Heterogeneous) | reach-tanh | Specification 2 | tanh | [1,2] | - | 
 | [Unicycle](./benchmarks/Benchmark10-Unicycle) | reach | default | relu | [1,2] | - | 
 | [VCAS](./benchmarks/VCAS) | avoid | default | relu | vertical distance over time | - |
 

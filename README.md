@@ -11,22 +11,22 @@ We are resuing the benchmarks from 2024:
 | Benchmark | Instance | Specification | Network | Visualization | Comment |
 |-----------|----------|---------------|-----------|---------------|---------|
 | [ACC](./benchmarks/ACC) | safe-distance | default | relu | distance over time | - | 
-| [Airplane](./benchmarks/Airplane) | continuous | t\in[0,20] | relu | [2,7] | - | 
-| [Airplane](./benchmarks/Airplane) | discrete | t\in{0,1,...,20} | relu | [2,7] | - | 
+| [Airplane](./benchmarks/Airplane) | continuous | t∈[0,20] | relu | [2,7] | - | 
+| [Airplane](./benchmarks/Airplane) | discrete | t∈{0,1,...,20} | relu | [2,7] | - | 
 | [Attitude Control](./benchmarks/Attitude-Control) | avoid | default | sigmoid | [1,2] | - | 
 | [Balancing](./benchmarks/CartPole) | reach | default | tanh | [1,3] | - | 
-| [Docking](./benchmarks/Docking) | constraint | default | tanh | [1,2] and [3,4] | - | 
+| [Docking](./benchmarks/Docking) | constraint | default | tanh | 1 over time | - | 
 | [Double Pendulum](./benchmarks/Double_Pendulum) | less-robust | Specification 1 | less robust | [3,4] | -| 
 | [Double Pendulum](./benchmarks/Double_Pendulum) | more-robust | Specification 2 | more robust | [3,4] | - | 
 | [NAV](./benchmarks/NAV) | standard | default | nn-nav-point | [1,2] | - | 
 | [NAV](./benchmarks/NAV) | robust | default | nn-nav-set | [1,2] | - | 
-| [QUAD](./benchmarks/QUAD) | reach | default | sigmoid | dim 3 over time | - | 
+| [QUAD](./benchmarks/QUAD) | reach | default | sigmoid | 3 over time | - | 
 | [Single Pendulum](./benchmarks/Single_Pendulum) | reach | default | relu | 1 over time | - | 
 | [TORA](./benchmarks/Benchmark9-Tora) | remain | Specification 1 | relu | [1,2] and [3,4] | - | 
 | [TORA](./benchmarks/Tora_Heterogeneous) | reach-sigmoid | Specification 2 | sigmoid | [1,2] | - | 
 | [TORA](./benchmarks/Tora_Heterogeneous) | reach-tanh | Specification 2 | tanh | [1,2] | - | 
 | [Unicycle](./benchmarks/Benchmark10-Unicycle) | reach | default | relu | [1,2] | - | 
-| [VCAS](./benchmarks/VCAS) | avoid | default | relu | vertical distance over time | - |
+| [VCAS](./benchmarks/VCAS) | middle-\* / worst-\* | default | relu | vertical distance over time | - |
 
 
 ### Competition History

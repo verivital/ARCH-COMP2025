@@ -31,7 +31,8 @@ We are resuing the benchmarks from 2024:
 
 ### Competition History
 
-Prior year reports:
+Reports:
+- 2025: https://easychair.org/publications/paper/Gc39
 - 2024: https://easychair.org/publications/paper/WsgX
 - 2023: https://easychair.org/publications/paper/Vfq4b
 - 2022: https://easychair.org/publications/paper/C1J8
